@@ -17,9 +17,11 @@ public class UserController {
     @ResponseBody
     public String findUser(String name, String password) {
         User user = userService.findUser(name, password);
+
         if (user==null){
             return "error";
         }
+
         return "succeed ==>"+user.toString();
     }
 }

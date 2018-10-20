@@ -10,7 +10,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width">
-    <title>主界面</title>
+    <title>购物车</title>
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <script type="text/javascript" src="bootstrap/JQuery/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
@@ -37,8 +37,8 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
-                <li class="active"><a href="index.jsp">首页<span class="sr-only">(current)</span></a></li>
-                <li><a href="shoppingCar.jsp">购物车</a></li>
+                <li><a href="index.jsp">首页
+                <li class="active"><a href="shoppingCar.jsp">购物车</a></li><span class="sr-only">(current)</span></a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
                 <li class="dropdown">
@@ -60,15 +60,7 @@
 
     </div>
     <div class="col-md-4">
-        <img src="image/1.jpg" class="img-responsive">
-        <p style="color: red;align-content: center;font-size: 20px;font-weight: bolder">￥987654.00元</p>
 
-        <button type="button" class="btn btn-default btn-lg" style="width: 150px;float: left">
-            <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>加入购物车
-        </button>
-        <button type="button" class="btn btn-default btn-lg pay" style="width: 150px;float: right">
-            <span class="glyphicon glyphicon-yen" aria-hidden="true"></span>立即购买
-        </button>
     </div>
     <div class="col-md-4">
 
@@ -76,10 +68,5 @@
 </div>
 
 </body>
-
-<script>
-
-</script>
-
 </html>
 

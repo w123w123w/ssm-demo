@@ -4,9 +4,11 @@ import com.wulianfa.entity.User;
 import com.wulianfa.mapper.UserMapper;
 import com.wulianfa.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
 
 @Service
+//@Cacheable(value = { "userCache" })
 public class UserServiceImpl implements UserService {
 
     @Autowired

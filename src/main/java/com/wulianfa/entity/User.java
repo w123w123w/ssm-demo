@@ -1,6 +1,9 @@
 package com.wulianfa.entity;
 
-public class User {
+import java.io.Serializable;
+
+public class User implements Serializable {
+    private static final long serialVersionUID = 2771814128907563172L;
     private String id;
     private String name;
     private String password;

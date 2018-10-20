@@ -7,7 +7,7 @@
     <!-- mybatis配置 cacheEnabled若不配置ehcache则为false，这里为true-->
     <settings>
         <!-- 打印查询语句 -->
-        <setting name="logImpl" value="LOG4J" />
+        <setting name="logImpl" value="STDOUT_LOGGING" />
         <!-- 是否开启全局缓存 -->
         <setting name="cacheEnabled" value="true" />
         <!-- 查询时，关闭关联对象即时加载以提高性能 -->
